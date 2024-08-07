@@ -1,9 +1,0 @@
-package com.appointmentmanagement.entity;
-
-public class Bill {
-
-	public Bill() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

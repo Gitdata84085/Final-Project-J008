@@ -1,9 +1,0 @@
-package com.appointmentmanagement.entity;
-
-public class Receptionist {
-
-	public Receptionist() {
-		// TODO Auto-generated constructor stub
-	}
-
-}
