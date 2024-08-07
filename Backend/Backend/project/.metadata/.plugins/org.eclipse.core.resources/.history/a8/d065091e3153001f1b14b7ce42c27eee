@@ -1,0 +1,5 @@
+package com.appointmentmanagement.entity;
+
+public enum AppStatus {
+
+}

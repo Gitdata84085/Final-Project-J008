@@ -1,0 +1,9 @@
+package com.appointmentmanagement.entity;
+
+public class Service {
+
+	public Service() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
