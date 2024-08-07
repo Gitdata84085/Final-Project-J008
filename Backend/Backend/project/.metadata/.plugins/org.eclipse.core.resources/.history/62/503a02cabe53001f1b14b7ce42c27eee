@@ -1,0 +1,9 @@
+package com.appointmentmanagement.entity;
+
+public class Patient {
+
+	public Patient() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

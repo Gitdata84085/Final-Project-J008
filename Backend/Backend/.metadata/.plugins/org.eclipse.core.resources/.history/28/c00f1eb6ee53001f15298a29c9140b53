@@ -1,0 +1,6 @@
+package com.app.service;
+
+public interface UserService {
+	User register(UserRegisterDTO userDto);
+
+}

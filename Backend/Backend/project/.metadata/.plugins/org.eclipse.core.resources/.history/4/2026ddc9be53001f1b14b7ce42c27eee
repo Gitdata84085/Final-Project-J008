@@ -1,0 +1,9 @@
+package com.appointmentmanagement.entity;
+
+public class PrescriptionDetails {
+
+	public PrescriptionDetails() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
