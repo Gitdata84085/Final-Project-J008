@@ -1,8 +1,0 @@
-package com.app.service;
-
-import com.app.dto.UserRegisterDTO;
-
-public interface UserService {
-	User register(UserRegisterDTO userDto);
-
-}
