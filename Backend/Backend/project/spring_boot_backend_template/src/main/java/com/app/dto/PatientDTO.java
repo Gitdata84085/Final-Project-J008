@@ -4,8 +4,6 @@ import java.time.LocalDate;
 
 import com.app.pojos.BloodType;
 import com.app.pojos.Gender;
-import com.app.pojos.Role;
-
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

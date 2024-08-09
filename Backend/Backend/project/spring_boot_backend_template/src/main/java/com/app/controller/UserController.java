@@ -44,11 +44,11 @@ public class UserController {
 	
 	
 	@PostMapping("/register")
-	public User registerAdmin(@RequestBody UserRegisterDTO dto) {
-		System.out.println(dto);
-		return userService.register(dto);
-	
+	public ResponseEntity<User> registerUser(@RequestBody UserRegisterDTO adminDto) {
+	    User registeredUser = userService.register(adminDto);
+	    return ResponseEntity.ok(registeredUser);
 	}
+
 	
 	@PostMapping("/login")
 	public User login(@RequestBody UserLoginDTO dto) {
