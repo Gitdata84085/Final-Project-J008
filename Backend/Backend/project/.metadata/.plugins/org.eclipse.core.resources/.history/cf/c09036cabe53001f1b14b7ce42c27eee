@@ -1,9 +1,0 @@
-package com.appointmentmanagement.entity;
-
-public class Prescription {
-
-	public Prescription() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

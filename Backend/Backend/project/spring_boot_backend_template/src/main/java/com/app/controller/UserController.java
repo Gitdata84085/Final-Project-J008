@@ -13,7 +13,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 
+
 import com.app.dto.PatientDTO;
+
 import com.app.dto.UserLoginDTO;
 import com.app.dto.UserRegisterDTO;
 import com.app.pojos.Admin;
@@ -32,6 +34,7 @@ import io.swagger.v3.oas.models.responses.ApiResponse;
 @CrossOrigin(origins = "http://localhost:3000/")
 @RestController
 @RequestMapping("/user")
+
 public class UserController {
 	@Autowired
 	private UserService userService;
@@ -61,5 +64,5 @@ public class UserController {
 		
 	}
 	
-		
+
 }
