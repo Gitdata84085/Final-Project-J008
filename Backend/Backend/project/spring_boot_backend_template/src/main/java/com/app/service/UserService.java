@@ -9,4 +9,5 @@ public interface UserService {
 	User login(UserLoginDTO userDto);
 	public User findUserDetails(String username,String password); // To find user details for login.
 	public void deleteUser(int id);
+
 }

@@ -1,5 +1,0 @@
-package com.appointmentmanagement.entity;
-
-public enum AppStatus {
-	NOT_CONFIRMED, CONFIRMED, CANCELLED,ATTENDED,ATTENDED_AND_BILL_GENERATED,ATTENDED_AND_PRESCRIP;
-}
