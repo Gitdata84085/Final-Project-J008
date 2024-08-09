@@ -37,10 +37,8 @@ public class UserServiceImpl implements UserService {
 
 	@Override
 	public User register(UserRegisterDTO adminDto) {
-		User user = map.map(adminDto,User.class);
-		User u = userDao.save(user);
-		
-		return u;
+	    User user = map.map(adminDto, User.class); // Assuming 'map' is an instance of ModelMapper or similar
+	    return userDao.save(user); // Save the user to the database
 	}
 
 	@Override
