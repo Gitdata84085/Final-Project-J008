@@ -1,56 +1,16 @@
-package com.app.dto;
+package com.app.dao;
 
-import java.time.LocalDate;
+import java.util.List;
+import java.util.Optional;
 
-import com.app.pojos.BloodType;
-import com.app.pojos.Gender;
-import com.app.pojos.Role;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import lombok.ToString;
+import com.app.pojos.Patient;
+import com.app.pojos.User;
+import com.app.pojos.UserValidity;
 
-@Getter
-@Setter
-@ToString
-@AllArgsConstructor
-@NoArgsConstructor
+public interface PatientDao extends JpaRepository<Patient, Integer>{
+	public Optional<Patient> findPatientByUser(User u);
+	public List<Patient> findByUserValidity(UserValidity validity);
 
-public class PatientDTO {
-	// for registering patient we have used this details.
-	private int id;
-	private String name;
-	private LocalDate dob;
-	private Gender gender;
-	private BloodType type;
-	private String address;
-	private String state;
-	private String city;
-	private int pincode;
-	private String mobileNo;
-	private String emailid;
-	private String username;
-	private int user_id;
-	// for adding patient
-	
-
-	
-
-	public PatientDTO(int id2, String name2,String emailid,String mobileNo,Gender gender,LocalDate dob,String address, int id3) {
-		// TODO Auto-generated constructor stub
-		this.id=id2;
-		this.name=name2;
-		this.emailid = emailid;
-		this.mobileNo = mobileNo;
-		this.gender = gender;
-		this.dob = dob;
-		this.address = address;
-		this.user_id=id3;
-	}
-	
-	
-	
-		
 }
