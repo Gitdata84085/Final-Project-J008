@@ -1,7 +1,7 @@
 package com.app.dto;
 
-import com.app.entities.Role;
-import com.app.entities.UserValidity;
+import com.app.pojos.Role;
+import com.app.pojos.UserValidity;
 
 import lombok.Getter;
 import lombok.Setter;

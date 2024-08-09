@@ -1,4 +1,4 @@
-package com.app.entities;
+package com.app.pojos;
 
 public enum UserValidity {
 	INACTIVE,ACTIVE

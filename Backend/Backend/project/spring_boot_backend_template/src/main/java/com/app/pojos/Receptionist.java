@@ -1,23 +1,22 @@
-package com.app.entities;
+package com.app.pojos;
 
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class Admin {
+public class Receptionist {
+
 	private String name;
 	private Role role;
-	
-	public Admin()
-	{
+	public Receptionist() {
 		
 	}
-
-	public Admin(String name, Role role) {
+	public Receptionist(String name, Role role) {
 		super();
 		this.name = name;
 		this.role = role;
 	}
 	
+
 }

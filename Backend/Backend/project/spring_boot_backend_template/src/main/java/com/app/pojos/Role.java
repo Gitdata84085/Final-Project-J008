@@ -1,4 +1,4 @@
-package com.app.entities;
+package com.app.pojos;
 
 public enum Role {
 	ADMIN,DOCTOR,PATIENT,RECEPTIONIST

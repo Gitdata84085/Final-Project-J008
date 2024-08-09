@@ -1,4 +1,4 @@
-package com.app.entities;
+package com.app.pojos;
 
 import java.time.LocalDate;
 import java.util.HashSet;
